@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col">
-                <div id="lista" class="row justify-content-between" style="text-align: center; margin-left: 2rem; gap: 2rem;">
+                <div id="lista" class="row justify-content-left" style="text-align: center; margin-left: 2rem; gap: 1rem;">
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
         function aggiungiColonna(linea, orari) {
             let colDiv = document.createElement("div");
-            colDiv.classList.add("col", "cardlinea");
+            colDiv.classList.add("col", "col-2");
             colDiv.style.borderRadius = "2rem";
             colDiv.style.overflow = "hidden";
             colDiv.style.background = "white";
